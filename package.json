@@ -1,0 +1,8 @@
+{
+  "name": "aisahab-hybrid-sovereign",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build" },
+  "dependencies": { "@google/genai": "^1.38.0", "react": "^19.0.0", "react-dom": "^19.0.0" },
+  "devDependencies": { "vite": "^6.0.0", "@vitejs/plugin-react": "^4.3.4", "tailwindcss": "^3.4.1" }
+}
