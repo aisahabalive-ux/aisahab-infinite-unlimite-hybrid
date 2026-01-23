@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-website-url.com/sitemap.xml
+Sitemap: https://aisahabalive-ux.github.io/aisahab-infinite-unlimite-hybrid/sitemap.xml
+
