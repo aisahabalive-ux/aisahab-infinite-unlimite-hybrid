@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://aisahabalive-ux.github.io/aisahab-infinite-unlimite-hybrid/</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+    <url>
+        <loc>https://aisahabalive-ux.github.io/aisahab-infinite-unlimite-hybrid/</loc>
+        <lastmod>2026-01-23</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://aisahabalive-ux.github.io/aisahab-infinite-unlimite-hybrid/about.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aisahabalive-ux.github.io/aisahab-infinite-unlimite-hybrid/privacy-policy.html</loc>
+        <priority>0.8</priority>
+    </url>
 </urlset>
