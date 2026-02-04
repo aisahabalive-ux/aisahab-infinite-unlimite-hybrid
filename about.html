@@ -3,35 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Infinite Unlimited Hybrid</title>
+    <title>About Us | Aisahab Infinite Hybrid System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.8; color: #2c3e50; max-width: 900px; margin: auto; padding: 40px; background-color: #f9fbff; }
-        .about-card { background: #ffffff; padding: 50px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 5px solid #3498db; }
-        h1 { color: #1a2a6c; font-size: 2.5rem; text-align: center; margin-bottom: 30px; }
-        h2 { color: #3498db; margin-top: 30px; border-left: 4px solid #3498db; padding-left: 15px; }
-        p { font-size: 1.1rem; text-align: justify; }
-        .highlight { font-weight: bold; color: #e67e22; }
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        body { background: #000; color: #fff; font-family: 'Segoe UI', sans-serif; }
+        .orbitron { font-family: 'Orbitron', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #00dfd8, #0070f3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body>
-    <div class="about-card">
-        <h1>Welcome to Infinite Unlimited Hybrid</h1>
-        <p>At <span class="highlight">Infinite Unlimited Hybrid</span>, we are redefining the digital experience. We are a premier platform dedicated to delivering cutting-edge information on AI technology, hybrid software versions, and global tech trends.</p>
+<body class="bg-black text-zinc-300">
+    <nav class="p-6 border-b border-zinc-900 flex justify-between items-center bg-black/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="orbitron font-bold text-xl text-white">AISAHAB <span class="gradient-text">HYBRID</span></div>
+        <div class="flex space-x-6 text-[10px] uppercase tracking-widest text-zinc-500">
+            <a href="index.html" class="hover:text-white transition">Home</a>
+            <a href="articles.html" class="hover:text-white transition">Articles</a>
+            <a href="about.html" class="text-white border-b border-blue-500">About</a>
+        </div>
+    </nav>
 
-        <h2>Our Mission</h2>
-        <p>Our mission is simple: To provide <span class="highlight">unlimited</span> knowledge and <span class="highlight">infinite</span> possibilities to our readers. In this fast-evolving digital era, staying updated with the latest technology is not just an option—it's a necessity. We bridge the gap between complex tech and the common user.</p>
+    <main class="max-w-4xl mx-auto px-6 py-20">
+        <section class="text-center mb-16">
+            <h1 class="orbitron text-4xl md:text-6xl font-black uppercase mb-6 gradient-text">Our Mission</h1>
+            <p class="text-xl text-zinc-400 max-w-2xl mx-auto">
+                Defining the future of decentralized chip architecture and infinite hybrid synchronization.
+            </p>
+        </section>
 
-        <h2>What We Cover</h2>
-        <ul>
-            <li><strong>Hybrid Technology:</strong> Deep dives into the latest software versions and hybrid systems.</li>
-            <li><strong>AI Innovations:</strong> Exploring how Artificial Intelligence is changing our lives.</li>
-            <li><strong>Tech Solutions:</strong> Real-time fixes and updates for the modern tech enthusiast.</li>
-        </ul>
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+                <h2 class="orbitron text-2xl font-bold text-white mb-4">What is Aisahab Infinite?</h2>
+                <p class="mb-4 leading-relaxed">
+                    Aisahab Infinite Hybrid is a specialized research and development portal focused on the **Supreme V1000** chip design logic. Our platform serves as a central hub for technical documentation regarding universal space base systems and hybrid neural integration.
+                </p>
+                <p class="leading-relaxed">
+                    Founded in 2026, we aim to bridge the gap between high-level software repositories and hardware-level performance optimization.
+                </p>
+            </div>
+            <div class="bg-zinc-900/50 p-8 rounded-3xl border border-zinc-800 shadow-xl">
+                <h3 class="orbitron text-blue-400 font-bold mb-4 uppercase text-sm">Core Technologies</h3>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Infinite Hybrid Logic Gates</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Decentralized Repository Sync</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Neural Chip Architecture</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Universal Space Base Scalability</li>
+                </ul>
+            </div>
+        </div>
 
-        <h2>Why Choose Us?</h2>
-        <p>Unlike other platforms, we focus on depth and quality. Every article on <strong>AisaHab Infinite</strong> is researched and verified to ensure you get nothing but the truth. We believe in building a community where tech knows no limits.</p>
+        <section class="bg-blue-600/10 p-10 rounded-[40px] border border-blue-500/20 text-center">
+            <h2 class="orbitron text-2xl font-bold text-white mb-4">Contact Information</h2>
+            <p class="mb-6 text-zinc-400">For technical inquiries or collaboration regarding the V1000 system:</p>
+            <a href="mailto:aisahabalive@gmail.com" class="orbitron text-xl font-bold text-blue-400 hover:text-white transition">aisahabalive@gmail.com</a>
+        </section>
+    </main>
 
-        <p style="text-align: center; margin-top: 40px; font-style: italic;">"Infinite Knowledge. Unlimited Growth."</p>
-    </div>
+    <footer class="bg-zinc-950 py-12 text-center border-t border-zinc-900">
+        <p class="text-zinc-700 text-[10px] uppercase tracking-[0.5em]">© 2026 AISAHAB INFINITE SYSTEM • ALL RIGHTS RESERVED</p>
+    </footer>
 </body>
 </html>
